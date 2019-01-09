@@ -12,10 +12,10 @@ mean = sum(data) / n
 
 #getting relevant data into arrays
 data_array = array(data)
-mean_list_array = array(mean)
+mean_array = array(mean)
 
 #steps to calculating variance/standard deviation
-step1 = data_array - mean_list_array
+step1 = data_array - mean_array
 step2 = step1 ** 2
 step3 = sum(step2)
 
